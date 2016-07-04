@@ -1,0 +1,222 @@
+/*font-family: 'Shadows Into Light', cursive;
+ */
+
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+
+/*Estilos para las diferntes Etiquetas de la pagina*/
+body{
+background-image: url(../images/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Comic Sans Ms', cursive;
+color: white;
+margin-left: 10px;
+font-size: 40px;
+text-align: center; 
+}
+
+h2{
+font-family: 'Electrolize', cursive;
+color: aquamarine;
+margin-left: 10px;
+font-size: 30px;
+text-align: center; 
+}
+
+h3{
+font-family: 'Shadows Into Light', cursive;;
+color: black;
+font-size: 30px;
+text-align: center; 
+}
+
+
+h4{
+font-family: 'arial', cursive;;
+color: white;
+font-size: 20px;
+text-align: center; 
+}
+
+h5{
+font-family: 'Shadows Into Light', cursive;;
+color: seagreen;
+font-size: 30px;
+text-align: center; 
+}
+
+
+header{
+	width: 1000px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 10,70);
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background: black;
+text-align: center;
+vertical-align: center;
+border-radius: 10px;
+
+}
+ul{
+text-align: center;
+margin: auto;
+padding-top: 5px;
+}
+
+li{
+	text-align: center;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: black;
+	margin: 5px;
+	border-radius: 10px;
+	
+
+}
+
+section{
+	width: 1000px;
+	background: lightgrey;
+	height: 700px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+section2{
+	width: 1000px;
+	background: white;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+
+section3{
+	width: 700px;
+	background: lavender;
+	height: 800px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+section4{
+	width: 1000px;
+	background: whitesmoke;
+	height: 800px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+aside{
+
+	width: 280px;
+	background: white;
+	height: 800px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer{
+width: 1000px;
+height: 50px;
+background: black;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+p{
+
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+#galeria, #galeria * {box-sizing:border-box,-moz-box-sizing:border-box}
+#galeria {
+position: center;
+text-align: center;
+border: 1px solid #EAEAEA;  /* Borde de la galería */
+padding: 10px;
+padding-bottom: 0;
+background: none;  /* Fondo de la galería */
+width: 975px;  /* Ancho de la galería */
+}
+#galeria_miniaturas {
+display: table;
+margin: auto;
+text-align: center;
+}
+#imgGaleria {
+border: 1px solid #F2F2F2;  /* Borde de la imagen */
+padding: 3px;
+width: x; /* Ancho de la imagen */
+height: x; /* Alto de la imagen */
+}
+.miniatura {
+width:  60px;  /* Ancho de las miniaturas */
+height:  60px;  /* Alto de las miniaturas */
+float: left;
+cursor: pointer;
+padding: 5px;
+margin: 10px 5px;
+}
+.miniatura:hover {
+opacity:.8;   /* Opacidad */
+-moz-opacity:.8;
+-khtml-opacity:.8;
+filter:alpha(opacity=80);
+}
+.miniatura:active {
+opacity:1;
+-moz-opacity:1;
+-khtml-opacity:1;
+filter:alpha(opacity=80);
+}
+
+
+span{
+
+	color: black;
+
+	}
+
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+
